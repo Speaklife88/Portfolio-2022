@@ -9,10 +9,10 @@ const Hero = () => (
     <LeftSection> 
       <SectionTitle main center>
         I'm Brandon... <br />
-        Welcome to my Portfolio
+        Welcome To My Web Dev Portfolio
       </SectionTitle>
       <SectionText>
-        To Be a Front-End Developer in 2021...what a time to be alive!
+        To Be A Developer in 2022...What A Time To Be Alive!
       </SectionText>
       <Button onClick={() => window.location ='https://google.com'}> Learn More </Button>
     </LeftSection>
