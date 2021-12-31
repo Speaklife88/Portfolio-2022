@@ -8,8 +8,8 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection> 
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+        I'm Brandon... <br />
+        Welcome to my Portfolio
       </SectionTitle>
       <SectionText>
         To Be a Front-End Developer in 2021...what a time to be alive!
