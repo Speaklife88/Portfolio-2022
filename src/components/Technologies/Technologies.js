@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <br/>
+    <br />
     <SectionTitle>Technologies</SectionTitle>
     <br />
     <SectionText>
@@ -30,7 +30,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Next.js for JAMstack projects
+            Node and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,7 +40,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma, Canva
+            tools like Figma & Canva
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -58,7 +58,31 @@ const Timeline = () => {
   }, []);
 
   return (
-  <div>Ya Mama</div>
+    <Section id="about">
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>
+      Driven, goal oriented full-stack developer with a diverse interest in Blockchain and Front-End technologies. Culturally competent, socially perceptive candidate who has attained a broader perspective of people and the world; and knows the world is a better place when people have a deeper understanding and greater empathy toward all individuals and cultures. Comfortable collaborating on intellectually and culturally diverse teams to complete assignments, exceed goals and elevate standards. Possesses a strong people first orientation with a commitment to professional ethics. Seeking remote opportunities to further my career in Blockchain and Front-end Development.
+      </SectionText>
+      <CarouselContainer ref={carouselRef}>
+        <>
+          {TimeLineData.map((from,index) => (
+            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+              <CarouselItem
+                index={index}
+                id={`carousel__item-${index}`}
+                active={activeItem}
+                onClick={(e) => handleClick(e, index)} 
+              >
+              <CarouselItemTitle>
+                {item.year}
+              </CarouselItemTitle>
+
+              </CarouselItem>
+            </CarouselMobileScrollNode>
+          ))}
+        </>
+      </CarouselContainer>
+    </Section>
   );
 };
 export default Timeline;
