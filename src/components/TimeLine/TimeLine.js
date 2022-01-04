@@ -65,7 +65,7 @@ const Timeline = () => {
       </SectionText>
       <CarouselContainer ref={carouselRef}>
         <>
-          {TimeLineData.map((from,index) => (
+          {TimeLineData.map((item,index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
               <CarouselItem
                 index={index}
@@ -75,6 +75,9 @@ const Timeline = () => {
               >
               <CarouselItemTitle>
                 {item.year}
+                <CarouselItemImg>
+                  
+                </CarouselItemImg>
               </CarouselItemTitle>
 
               </CarouselItem>
